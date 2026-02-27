@@ -101,9 +101,9 @@
           if (letterIndex <= 4) {
             container.innerHTML = currentText;
           } else if (letterIndex === phrases[phraseIndex].length) {
-            container.innerHTML = 'I am <span style="font-weight: 950; color: #f05f40; text-shadow: 2px 2px 3px black;">' + currentText.substr(5, currentText.length - 6) + '</span><span style="color: white;">.</span>';
+            container.innerHTML = 'I am <span style="font-weight: 950; color: #007bff; text-shadow: 2px 2px 3px black;">' + currentText.substr(5, currentText.length - 6) + '</span><span style="color: white;">.</span>';
           } else {
-            container.innerHTML = 'I am <span style="font-weight: 950; color: #f05f40; text-shadow: 2px 2px 3px black;">' + currentText.substr(5) + '</span>';
+            container.innerHTML = 'I am <span style="font-weight: 950; color: #007bff; text-shadow: 2px 2px 3px black;">' + currentText.substr(5) + '</span>';
           }
 
           if (letterIndex === phrases[phraseIndex].length) {
@@ -116,9 +116,9 @@
           if (letterIndex <= 4) {
             container.innerHTML = currentText;
           } else if (letterIndex === phrases[phraseIndex].length - 1) {
-            container.innerHTML = 'I am <span style="font-weight: 950; color: #f05f40; text-shadow: 2px 2px 3px black;">' + currentText.substr(5) + '</span>';
+            container.innerHTML = 'I am <span style="font-weight: 950; color: #007bff; text-shadow: 2px 2px 3px black;">' + currentText.substr(5) + '</span>';
           } else {
-            container.innerHTML = 'I am <span style="font-weight: 950; color: #f05f40; text-shadow: 2px 2px 3px black;">' + currentText.substr(5) + '</span>';
+            container.innerHTML = 'I am <span style="font-weight: 950; color: #007bff; text-shadow: 2px 2px 3px black;">' + currentText.substr(5) + '</span>';
           }
 
           if (currentText === "I am") {
