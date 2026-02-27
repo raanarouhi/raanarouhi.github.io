@@ -17,6 +17,17 @@ header.masthead {
     background-repeat: no-repeat;
 }
 
+header.masthead .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+header.masthead .btn-primary:hover,
+header.masthead .btn-primary:focus {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
 /* ---------- Hero / Masthead mobile fix ---------- */
 @media (max-width: 767px) {
     header.masthead {
