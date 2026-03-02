@@ -28,6 +28,13 @@ header.masthead .btn-primary:focus {
     border-color: #0062cc;
 }
 
+/* Navbar brand: blue only when navbar shrinks on scroll */
+#mainNav.navbar-shrink .navbar-brand,
+#mainNav.navbar-shrink .navbar-brand:hover,
+#mainNav.navbar-shrink .navbar-brand:focus {
+    color: #007bff !important;
+}
+
 /* ---------- Hero / Masthead mobile fix ---------- */
 @media (max-width: 767px) {
     header.masthead {
@@ -1066,7 +1073,7 @@ body {
     bottom: 4px;
     width: 0;
     height: 2px;
-    background: #f05f40;
+    background: #007bff;
     border-radius: 2px;
     transition: width 0.3s ease, left 0.3s ease;
 }
@@ -1074,6 +1081,17 @@ body {
 #mainNav .navbar-nav > li.nav-item > a.nav-link:not(.nav-icon):hover::after {
     width: 60%;
     left: 20%;
+}
+
+/* Override nav link colors (Home, etc.) to blue on hover/active */
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #007bff;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+    color: #007bff !important;
 }
 
 /* Vertical divider between text links and social icons */
