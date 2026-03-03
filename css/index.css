@@ -28,6 +28,11 @@ header.masthead .btn-primary:focus {
     border-color: #0062cc;
 }
 
+/* Hero separator line under name: blue instead of orange */
+header.masthead hr {
+    border-color: #007bff;
+}
+
 /* Navbar brand: blue only when navbar shrinks on scroll */
 #mainNav.navbar-shrink .navbar-brand,
 #mainNav.navbar-shrink .navbar-brand:hover,
