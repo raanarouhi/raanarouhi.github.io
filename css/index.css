@@ -742,6 +742,11 @@ body {
     transform: scale(1.05);
 }
 
+#about .degree-logo.degree-logo-placeholder {
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 #about .degree-text {
     flex: 1;
     min-width: 0;
