@@ -1163,9 +1163,7 @@ body {
 
 .nav-icon-youtube:hover i,  .nav-icon-youtube:hover svg  { color: #FF0000 !important; }
 .nav-icon-linkedin:hover i, .nav-icon-linkedin:hover svg { color: #0A66C2 !important; }
-.nav-icon-github:hover i,   .nav-icon-github:hover svg   { color: #24292e !important; }
-.nav-icon-scholar:hover i,  .nav-icon-scholar:hover svg  { color: #4285F4 !important; }
-.nav-icon-twitter:hover i,  .nav-icon-twitter:hover svg  { color: #1DA1F2 !important; }
+.nav-icon-gmail:hover i,    .nav-icon-gmail:hover svg    { color: #EA4335 !important; }
 
 /* Hide divider on mobile (collapsed nav) */
 @media (max-width: 991px) {
@@ -1239,10 +1237,10 @@ body {
     box-shadow: 0 8px 24px rgba(10, 102, 194, 0.25);
 }
 
-.social-github:hover {
-    background: #24292e;
-    border-color: #24292e;
-    box-shadow: 0 8px 24px rgba(36, 41, 46, 0.25);
+.social-gmail:hover {
+    background: #EA4335;
+    border-color: #EA4335;
+    box-shadow: 0 8px 24px rgba(234, 67, 53, 0.25);
 }
 
 .social-scholar:hover {
