@@ -966,6 +966,14 @@ body {
     object-fit: contain;
 }
 
+.work-logo.work-logo-placeholder {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 /* ---------- Award Timeline ---------- */
 .award-timeline {
     position: relative;
